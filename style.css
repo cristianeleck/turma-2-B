@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Borel', cursive;
+}
+
 .cabecalho {
     background-color: #73F168;
     display: flex;
@@ -20,4 +24,43 @@
     display:inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+
+.trator-imagem{
+    width: 20%;
+}
+
+.escola{
+    background-image: linear-gradient(#73F168,#79E9A6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+.imagem-estudante{
+    width: 180px;
+}
+
+.estudante-icone{
+    width: 20px;
+}
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
 }
